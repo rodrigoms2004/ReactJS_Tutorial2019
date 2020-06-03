@@ -1,0 +1,15 @@
+.contacts {
+  display: flexbox;
+}
+
+.contact-card {
+  display: flexbox;
+}
+
+h3 {
+  text-align: justify;
+}
+
+img {
+  display: flexbox;
+}

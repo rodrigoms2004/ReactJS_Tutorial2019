@@ -70,4 +70,83 @@ ReactDOM.render(
 ## Parent/Child Componets
 
 
-### Stopped at 50:52 Styling React with CSS Classes
+## CSS
+
+
+**Vanilla javascript**
+*document.getElementById("something").className += " new-class-name"*
+
+### Header.js
+*src/CSS_Classes/example/src/components/Header.js*
+```
+import React from 'react'
+
+function Header() {
+  return(
+    <header className="navbar">This is the header</header>
+  )
+}
+
+export default Header
+```
+*src/CSS_Classes/example/src/index.js*
+### index.js
+
+```
+import React from 'react'
+import ReactDOM from 'react-dom'
+import './style.css'
+
+import App from './App'
+
+ReactDOM.render(<App />, document.getElementById('root'))
+```
+
+### style.css
+*src/CSS_Classes/example/src/style.css*
+```
+.navbar {
+  background-color: purple;
+};
+```
+
+
+## JSX to JavaScript and Back
+
+```
+import React from 'react'
+
+function App() {
+  const firstName = "Bob"
+  const lastName = "Ziroll"
+
+  return(
+    <div>
+      <h1>Hello {firstName + " " + lastName}!</h1>
+      <h1>Hello {`${firstName} ${lastName}`}!</h1>
+    </div>
+  )
+}
+
+export default App
+```
+
+## Inline Styles with the Style Property
+
+*src/JSXtoJavascript/example/src/App.js*
+
+```
+  const styles = {
+    color: "#FF8C00",
+    backgroundColor: "#FF2D00",
+    fontSize: "200px"
+  }
+
+  return (
+    <div>
+      <h1 style={styles}>Good {timeOfDay}!</h1>
+    </div>
+  )
+```
+
+### Stopped at 1:40:31 Mapping Components
