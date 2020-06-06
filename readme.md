@@ -149,4 +149,10 @@ export default App
   )
 ```
 
-### Stopped at 1:40:31 Mapping Components
+## Mapping Components
+
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
+
+
+### Stopped at 1:58:24 Class-based Components
