@@ -155,4 +155,38 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map
 
 
+## Class-based Components
+
+In class use **this** pointer
+
+```
+import React from 'react'
+
+function App() {
+  return (
+    <div>
+      <h1>Code goes here</h1>
+    </div>
+  )
+}
+
+export default App
+```
+
+```
+class App extends React.Component {
+  render() {
+    return (
+      <h1>Code goes here</h1>
+    )
+  }
+}
+```
+
+## State
+
+Props are imutable, state allows component to change its data
+
+## Handling Events in React
+
 ### Stopped at 1:58:24 Class-based Components
