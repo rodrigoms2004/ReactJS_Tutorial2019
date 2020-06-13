@@ -189,4 +189,43 @@ Props are imutable, state allows component to change its data
 
 ## Handling Events in React
 
-### Stopped at 1:58:24 Class-based Components
+https://reactjs.org/docs/events.html#supported-events
+
+
+## Changing State
+
+```
+import React, {Component} from 'react'
+
+class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      count: 0
+    }
+    // bind the method to the class to use setState
+    this.handleClick = this.handleClick.bind(this)
+  }
+
+  handleClick() {
+    this.setState(prevState => { // prevState = previous state
+      return {
+        count: prevState.count + 1 // returns a new state 
+      }
+    })
+  }
+
+  render() {
+    return(
+      <div>
+        <h1>{this.state.count}</h1>
+        <button onClick={this.handleClick}>Change!</button>
+      </div>
+    )
+  }
+}
+
+export default App
+```
+
+### Stopped at 2:47:27 Lifecycle Methods Part 1
