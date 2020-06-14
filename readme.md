@@ -1,7 +1,7 @@
 # React Tutorial
 
 
-
+[SCRIMBA React JS](https://scrimba.com/g/glearnreact)
 
 [Learn React JS - Full Course for Beginners - Tutorial 2019](https://www.youtube.com/watch?v=DLX62G4lc44&list=PL4ve0MDPJ_Ht8atBpL7BYqIwOgJjnWbvH&index=17&t=0s)
 
@@ -227,5 +227,54 @@ class App extends Component {
 
 export default App
 ```
+
+
+## Lifecycle Methods Part 1
+
+https://blog.bitsrc.io/react-16-lifecycle-methods-how-and-when-to-use-them-f4ad31fb2282
+https://reactjs.org/blog/2018/03/29/react-v-16-3.html#component-lifecycle-changes
+
+```
+  componentDidMount() {
+    // GET the data I need to crrectly display
+  }
+
+  // unsafe
+  componentWillReceiveProps(nextProps) {
+    if(nextProps.whatever !== this.props.whatever) {
+      // do somethin important here
+    }
+  }
+
+  shouldComponentUpdate(nextProps, nextState) {
+    // return true if want it to update
+    // return false if not
+  }
+
+  componentWillUnmount() {
+    // teardown or cleanup your code berfore your component disappears
+    // (E.g. remove event listeners)
+  }
+  ```
+
+
+## Lifecycle Methods Part 2
+
+https://reactjs.org/blog/2018/06/07/you-probably-dont-need-derived-state.html
+https://reactjs.org/docs/react-component.html#static-getderivedstatefromprops
+https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate
+
+
+## Lifecycle Methods Part 3 - Component did update
+
+https://scrimba.com/g/greacthooks
+
+
+## React Conditional Render Part 1
+
+
+## React Conditional Render Part 2
+
+
 
 ### Stopped at 2:47:27 Lifecycle Methods Part 1
