@@ -270,11 +270,16 @@ https://reactjs.org/docs/react-component.html#getsnapshotbeforeupdate
 https://scrimba.com/g/greacthooks
 
 
-## React Conditional Render Part 1
+## Fetching data from API with React
 
+Fetch
+https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/fetch
 
-## React Conditional Render Part 2
+Star Wars API
+https://swapi.dev/
 
+Promises
+https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 
 ### Stopped at 2:47:27 Lifecycle Methods Part 1
