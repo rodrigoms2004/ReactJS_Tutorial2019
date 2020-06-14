@@ -282,4 +282,43 @@ Promises
 https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-promise-27fc71e77261
 
 
-### Stopped at 2:47:27 Lifecycle Methods Part 1
+## Forms
+
+### React Docs about Forms:
+
+#### Controlled components
+https://reactjs.org/docs/forms.html
+
+**Controlled Input Null Value**
+
+Specifying the value prop on a controlled component prevents the user from changing the input unless you desire so. If you’ve specified a value but the input is still editable, you may have accidentally set value to undefined or null.
+The following code demonstrates this. (The input is locked at first but becomes editable after a short delay.)
+ReactDOM.render(<input value="hi"/>, document.getElementById('root'))
+
+```
+ReactDOM.render(<input value="hi"/>, document.getElementById('root'))
+
+setTimeout(() => {
+  ReactDOM.render(<input value={null}/>, document.getElementById('root'))
+}, 10000)
+
+```
+
+https://jaredpalmer.com/formik
+
+
+#### Uncontrolled components
+
+**Default Values**
+
+In the React rendering lifecycle, the value attribute on form elements will override the value in the DOM. With an uncontrolled component, you often want React to specify the initial value, but leave subsequent updates uncontrolled. To handle this case, you can specify a defaultValue attribute instead of value.
+
+https://reactjs.org/docs/uncontrolled-components.html#the-file-input-tag
+
+Likewise, <input type="checkbox"> and <input type="radio"> support defaultChecked, and <select> and <textarea> supports defaultValue.
+
+#### Controlled and uncontrolled form inputs in React don't have to be complicated
+https://goshakkk.name/controlled-vs-uncontrolled-inputs-react/
+
+
+### NEXT LESSON React Container & Component Architecture
