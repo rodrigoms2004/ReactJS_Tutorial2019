@@ -368,4 +368,6 @@ https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-samp
 
 https://medium.freecodecamp.org/summer-is-over-you-should-be-coding-heres-yet-another-list-of-exciting-ideas-to-build-a95d7704d36d
 
-### NEXT LESSON Use Effect
+### NEXT LESSON React Boot Camp!
+
+https://scrimba.com/g/greact
