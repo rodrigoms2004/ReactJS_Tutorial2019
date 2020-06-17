@@ -344,8 +344,28 @@ React lazy, memo, and Suspense - https://reactjs.org/blog/2018/10/23/react-v-16-
 
 Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 
-useState() hook
-useEffect() hook
+### useState() hook
 
+Use state in a function based component
+
+### useEffect() hook
+
+https://reactjs.org/docs/hooks-effect.html
+
+Replace three methods: componentDidMount, componentDidUpdate, componentWillUnmount
+
+Side effects?
+Network request
+Manual DOM manipulation
+Event listeners or timeouts and intervals
+
+
+## React Project Ideas for Practicing
+
+https://medium.freecodecamp.org/every-time-you-build-a-to-do-list-app-a-puppy-dies-505b54637a5d
+
+https://medium.freecodecamp.org/want-to-build-something-fun-heres-a-list-of-sample-web-app-ideas-b991bce0ed9a
+
+https://medium.freecodecamp.org/summer-is-over-you-should-be-coding-heres-yet-another-list-of-exciting-ideas-to-build-a95d7704d36d
 
 ### NEXT LESSON Use Effect
